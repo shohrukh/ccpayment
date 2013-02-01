@@ -1,0 +1,84 @@
+form.ccpaymentForm {
+	width: 470px;
+	font-size: 1.1em;
+	color: #333;
+	}
+	
+form.ccpaymentForm legend { padding-left: 0; }
+	
+form.ccpaymentForm legend,
+form.ccpaymentForm label { color: #333; }
+
+form.ccpaymentForm fieldset {
+	border: none;
+	border: 1px solid #C9DCA6;
+	background: url('../img/ccpaymentForm-fieldset.gif') left bottom repeat-x;
+	}
+	
+form.ccpaymentForm fieldset fieldset { background: none; }
+	
+form.ccpaymentForm fieldset li {
+	padding: 5px 10px 7px;
+	background: url('../img/ccpaymentForm-divider.gif') left bottom repeat-x;
+	}
+
+	
+	form.ccpaymentForm fieldset { margin-bottom: 10px; }
+	
+form.ccpaymentForm legend {
+	padding: 0 2px;
+	font-weight: bold;
+	_margin: 0 -7px; /* IE Win */
+	}
+	
+form.ccpaymentForm label {
+	display: inline-block;
+	line-height: 1.8;
+	vertical-align: top;
+	}
+	
+form.ccpaymentForm fieldset ol {
+	margin: 0;
+	padding: 0;
+	}
+	
+form.ccpaymentForm fieldset li {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+	}
+	
+form.ccpaymentForm fieldset fieldset {
+	border: none;
+	margin: 3px 0 0;
+	}
+	
+form.ccpaymentForm fieldset fieldset legend {
+	padding: 0 0 5px;
+	font-weight: normal;
+	}
+	
+form.ccpaymentForm fieldset fieldset label {
+	display: block;
+	width: auto;
+	}
+
+form.ccpaymentForm em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+	}
+
+form.ccpaymentForm label { width: 160px; } /* Width of labels */
+form.ccpaymentForm fieldset fieldset label { margin-left: 123px; } /* Width plus 3 (html space) */
+
+/*\*//*/ form.ccpaymentForm legend { display: inline-block; } /* IE Mac legend fix */
+
+
+#text {margin:50px auto; width:500px}
+.hotspot {color:#900; padding-bottom:1px; border-bottom:1px dotted #900; cursor:pointer}
+
+#tt {position:absolute; display:block; background:url(../img/tt_left.gif) top left no-repeat}
+#tttop {display:block; height:5px; margin-left:5px; background:url(../img/tt_top.gif) top right no-repeat; overflow:hidden}
+#ttcont {display:block; padding:2px 12px 3px 7px; margin-left:5px; background:#666; color:#FFF}
+#ttbot {display:block; height:5px; margin-left:5px; background:url(../img/tt_bottom.gif) top right no-repeat; overflow:hidden}
